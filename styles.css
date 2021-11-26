@@ -1,6 +1,9 @@
-/* Global */
 :root{
     --text-color: #1B1A26;
+}
+
+html {
+    background-color: rgb(21, 0, 30);
 }
 
 *, body {
@@ -10,7 +13,6 @@
 
 body {
     text-align: center;
-    background-color: #758C51;
 }
 
 section, footer {
@@ -72,5 +74,3 @@ p {
 .crown-winner{
     visibility: hidden;
 }
-
-/* Footer */
