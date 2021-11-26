@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cubes</title>
+
+    <!-- Font Awesome -->
+    <script src="https://kit.fontawesome.com/4935680da2.js" crossorigin="anonymous"></script>
+
+    <!-- Styles -->
+    <link rel="stylesheet" href="styles.css">
+
+    <!-- Bootstrap -->
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+
+</head>
+<body>
+        <section>
+            <h1 class="bg-danger">Cubes</h1>
+        </section> 
+        
+        <section>
+            <h2 id="winner">Winner</h2>
+            <div class="player-container">
+                <div class="player">
+                    <i id="player1Wins" class="fas fa-crown fa-2x crown-winner"></i><br>
+                    <h3>Player 1</h2>
+                    <i id="player1Die" class="fas fa-dice fa-9x dice"></i>
+                </div>
+                <div class="player">
+                    <i id="player2Wins" class="fas fa-crown fa-2x crown-winner"></i><br>
+                    <h3>Player 2</h2>
+                    <i id="player2Die" class="fas fa-dice fa-9x dice"></i>
+                </div>
+            </div>
+        </section>
+        <button type="button" class="btn btn-danger btn-lg" onClick="window.location.reload();">ROLL</button>
+        <footer>
+            <a href="https:/github.com/Igi-it/" target="_blank">Igor Večeřa, IT2</a>           
+        </footer>
+        <script src="index.js"></script>
+</body>
+
+</html>
